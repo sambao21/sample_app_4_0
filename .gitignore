@@ -15,4 +15,14 @@
 /log/*.log
 /tmp
 
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+
 .secret
+
+/config/database.yml
